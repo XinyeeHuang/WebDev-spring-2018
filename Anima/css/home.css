@@ -1,0 +1,94 @@
+.index-top{
+	width: 100vw;
+	height: 26vw;
+	background: url(../img/index-top-bg.png) no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.intro{
+	height: 12vw;
+	color: white;
+	text-align: center;
+}
+.intro h1{
+	font-weight: 100;
+	line-height: 4vw;
+}
+.index-main{
+	width: 60vw;
+	height: 110vw;
+	margin: 4vw auto;
+}
+.left{
+	width: 36vw;
+	float: left;
+}
+.right{
+	width: 15vw;
+	float: right;
+}
+.left h2{
+	font-weight: 500;
+	line-height: 1.7em;
+	padding: 1vw 0;
+	margin: 0;
+	border-bottom: 1px solid black;
+	text-align: justify;
+}
+.left p{
+	margin-top: 2vw;
+	text-align: justify;
+	line-height: 2em;
+}
+.right h3{
+	color: #de4a4a;
+	line-height: 1.7em;
+	padding: 1vw 0 0 0;
+	margin: 0;
+	text-align: justify;
+}
+.right p{
+	color: #888888;
+	margin: 0.5vw 0;
+}
+.event{
+	margin: 0 0 3vw 0;
+}
+.event a{
+	color: #de4a4a;
+}
+.news a{
+	color: black;
+}
+.news{
+	margin-top: 3vw;
+}
+.pos{
+	height: 50px;
+	background: url(../img/pos.png) center no-repeat;
+}
+.item{
+	height: 32vw;
+	border: 1px solid black;
+}
+.tag{
+	float: right;
+	margin-right: 2vw;
+	border-top: 5px solid #DE4A4A;
+	padding-top: 0.5vw;
+}
+.item .title{
+	margin: 4vw 2vw 1vw 2vw;
+}
+.item p{
+	padding: 0;
+	margin: 0;
+}
+.item h3{
+	font-weight: 600;
+}
+.preview{
+	margin: 0 2vw;
+}
